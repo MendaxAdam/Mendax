@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Название вашего сайта</title>
+</head>
+<body>
+    <h1>Регистрационная Форма</h1>
+    <p></p>
+</body>
+<form>
+    <label for="name">Имя:</label><br>
+    <input type="text" id="name" name="name"required><br>
+    <label for="email">Электронная почта:</label><br>
+    <input type="email" id="email" name="email"required><br>
+  
+    <label for="password">Пароль:</label><br>
+    <input type="password" id="password" name="password"required><br>
+  
+ 
+        <label>
+          <input type="checkbox" name="remember"> Оставаться в сети
+        </label><br>
+
+        <label for="gender">Пол:</label>
+        <select id="gender" name="gender"required>
+          <option value="male">Мужской</option>
+          <option value="female">Женский</option>
+          <option value="other">Другой</option>
+        </select><br>
+
+        <label>Полвой орган:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label><br>
+      
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br>
+      
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Другой</label><br>
+
+        <label for="favoriteColor">Выбрать любимый цвет:</label>
+        <input type="color" id="favoriteColor" name="favoriteColor"required><br>
+      
+      
+        <input type="submit" value="Войти">
+      
+  </form>
+</html>
